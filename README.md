@@ -6,7 +6,7 @@ This project uses machine learning classification models to predict whether neig
 graph TD;
     A[Load Data] --> B[Explore Descriptive Stats and Correlations];
     B --> C[Visualize Crime Rate Distribution];
-    C --> D[Define Binary Target (crim_over_thresh)];
+    C --> D[Define Binary Target crim_over_thresh];
     D --> E[Split Data: Train / Val / Test];
     E --> F[Logistic Regression on Each Feature];
     F --> G[Evaluate Accuracy, Select Best Feature];
