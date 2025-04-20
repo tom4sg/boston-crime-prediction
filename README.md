@@ -12,7 +12,7 @@ graph TD;
     F --> G[Evaluate Accuracy, Select Best Feature];
     G --> H[Train Final Logistic Model];
     G --> I[Train KNN with Varying K];
-    I --> J[Select Best K (e.g. K=16)];
+    I --> J[Select Best K e.g. K=16];
     J --> K[Train Final KNN Model];
     H --> L[Test Set Evaluation];
     K --> L;
