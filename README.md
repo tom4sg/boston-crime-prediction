@@ -1,6 +1,7 @@
 # boston-crime-prediction
 This project uses machine learning classification models to predict whether neighborhoods in Boston exceed the median crime rate per capita, based on the Boston Housing dataset. Key features include CRIM, ZN, INDUS, CHAS, NOX, and others, with Logistic Regression and KNN applied to classify the outcome.
 
+```mermaid
 flowchart TD
     A[Load Data] --> B[Explore Descriptive Stats & Correlations]
     B --> C[Visualize Skewed Distribution of Crime Rates]
@@ -15,3 +16,4 @@ flowchart TD
     H --> L[Test Set Evaluation: Classification Report]
     K --> L
     L --> M[Conclusion: KNN Outperforms Logistic Regression]
+
